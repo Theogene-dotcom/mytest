@@ -23,7 +23,7 @@ sudo apt install python3-pip -y
 Then, install Django:
 ```sh
 
-pip install django
+***pip install django***
 Setup the Project
 Once you have downloaded Django, go to the cloned repository directory and run the following command to generate a requirements.txt file:
 ```sh
