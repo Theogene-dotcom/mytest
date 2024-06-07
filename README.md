@@ -4,14 +4,14 @@
 
 ### Update the System
 To ensure your system is up to date, run the following command:
-```sh
+
 sudo apt-get update
 Clone the Repository
 To get this repository, run the following command inside your Git-enabled terminal:
-
+```sh
 
 git clone https://github.com/Theogene-dotcom/mytest.git
-```sh
+
 Install Django
 You will need Django to be installed on your computer to run this app. Head over to Django's official website for the download guide.
 
@@ -21,12 +21,12 @@ First, install pip if you haven't already:
 
 sudo apt install python3-pip -y
 Then, install Django:
-
+```sh
 
 pip install django
 Setup the Project
 Once you have downloaded Django, go to the cloned repository directory and run the following command to generate a requirements.txt file:
-
+```sh
 
 pip freeze > requirements.txt
 Create Migrations
@@ -52,3 +52,4 @@ python3 manage.py runserver
 Once the server is hosted, head over to http://127.0.0.1:8000/mytest to access the app.
 
 Cheers and Happy Coding :)
+```sh
