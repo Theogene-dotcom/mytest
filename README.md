@@ -1,6 +1,13 @@
-Setup
-Update the System
+# MyTest Project
+
+## Setup
+
+### Update the System
+To ensure your system is up to date, run the following command:
+```sh
 sudo apt-get update
+
+
 To get this repository, run the following command inside your git enabled terminal
 git clone https://github.com/Theogene-dotcom/mytest.git
 You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
