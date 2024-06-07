@@ -4,7 +4,7 @@
 
 ### Update the System
 To ensure your system is up to date, run the following command:
-
+```sh
 sudo apt-get update
 ***Clone the Repository
 To get this repository, run the following command inside your Git-enabled terminal:
