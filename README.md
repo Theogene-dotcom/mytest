@@ -6,30 +6,48 @@
 To ensure your system is up to date, run the following command:
 ```sh
 sudo apt-get update
+Clone the Repository
+To get this repository, run the following command inside your Git-enabled terminal:
 
 
-To get this repository, run the following command inside your git enabled terminal
 git clone https://github.com/Theogene-dotcom/mytest.git
-You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
+Install Django
+You will need Django to be installed on your computer to run this app. Head over to Django's official website for the download guide.
 
-Download django usig pip
+Download Django Using pip
+First, install pip if you haven't already:
+
+
 sudo apt install python3-pip -y
+Then, install Django:
+
+
 pip install django
-Once you have downloaded django, go to the cloned repo directory and run the following command
-pip freeze>requirements.txt
+Setup the Project
+Once you have downloaded Django, go to the cloned repository directory and run the following command to generate a requirements.txt file:
+
+
+pip freeze > requirements.txt
+Create Migrations
+To create all the migration files (database migrations) required to run this app, run:
+
 
 python3 manage.py makemigrations
-This will create all the migrations file (database migrations) required to run this App.
+Apply Migrations
+To apply these migrations, run:
 
-Now, to apply this migrations run the following command
 
 python3 manage.py migrate
-One last step and then our todo App will be live. We need to create an admin user to run this App. On the terminal, type the following command and provide username, password and email for the admin user
+Create an Admin User
+We need to create an admin user to run this app. On the terminal, type the following command and provide a username, password, and email for the admin user:
+
 
 python3 manage.py createsuperuser
-That was pretty simple, right? Now let's make the App live. We just need to start the server now and then we can start using our simple todo App. Start the server by following command
+Start the Server
+Now let's make the app live. Start the server by running:
+
 
 python3 manage.py runserver
-Once the server is hosted, head over to http://127.0.0.1:8000/mytest for the App.
+Once the server is hosted, head over to http://127.0.0.1:8000/mytest to access the app.
 
 Cheers and Happy Coding :)
