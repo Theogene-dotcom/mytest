@@ -11,7 +11,8 @@ To get this repository, run the following command inside your Git-enabled termin
 
 
 git clone https://github.com/Theogene-dotcom/mytest.git
-###Install Django
+```sh
+Install Django
 You will need Django to be installed on your computer to run this app. Head over to Django's official website for the download guide.
 
 Download Django Using pip
