@@ -23,7 +23,7 @@ sudo apt install python3-pip -y
 Then, install Django:
 
 
-***pip install django***
+pip install django
 Setup the Project
 Once you have downloaded Django, go to the cloned repository directory and run the following command to generate a requirements.txt file:
 
@@ -32,8 +32,7 @@ pip freeze > requirements.txt
 Create Migrations
 To create all the migration files (database migrations) required to run this app, run:
 
-***Bold and Italic***
-[Link Text](https://www.example.com)
+
 
 python3 manage.py makemigrations
 Apply Migrations
