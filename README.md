@@ -6,16 +6,16 @@
 To ensure your system is up to date, run the following command:
 ```sh
 sudo apt-get update
-Clone the Repository
+***Clone the Repository
 To get this repository, run the following command inside your Git-enabled terminal:
 ```sh
 
 git clone https://github.com/Theogene-dotcom/mytest.git
-
+```sh
 Install Django
 You will need Django to be installed on your computer to run this app. Head over to Django's official website for the download guide.
 
-Download Django Using pip
+###Download Django Using pip
 First, install pip if you haven't already:
 
 
@@ -32,6 +32,8 @@ pip freeze > requirements.txt
 Create Migrations
 To create all the migration files (database migrations) required to run this app, run:
 
+***Bold and Italic***
+[Link Text](https://www.example.com)
 
 python3 manage.py makemigrations
 Apply Migrations
